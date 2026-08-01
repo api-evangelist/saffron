@@ -1,7 +1,25 @@
 aid: saffron
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saffron.png
 name: Saffron
-description: Saffron is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Saffron (trysaffron.ai) is a Y Combinator (Spring 2026) startup building
+  an AI-native technical assessment platform for engineering hiring. Candidates build
+  real features on a company's actual codebase using AI coding tools such as Claude
+  Code inside a sandboxed environment, while Saffron captures every keystroke and AI
+  interaction to score submissions against custom rubrics. It provides line-by-line
+  attribution distinguishing human-written, AI-generated, and AI-modified code, and
+  replaces traditional phone screens, take-homes, and on-site interview loops with
+  a single AI-integrated assessment.
 url: https://raw.githubusercontent.com/api-evangelist/saffron/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Hiring
+- Technical Assessment
+- Recruiting
+- Artificial Intelligence
+- Developer Tools
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/saffron-domain-security.yml
+- type: Website
+  url: https://www.trysaffron.ai/
+- type: About
+  url: https://www.trysaffron.ai/about
+- type: Pricing
+  url: https://www.trysaffron.ai/pricing
+- type: TermsOfService
+  url: https://www.trysaffron.ai/terms
+- type: PrivacyPolicy
+  url: https://www.trysaffron.ai/privacy
+- type: SignUp
+  url: https://calendly.com/robert-trysaffron/demo
+- type: LinkedIn
+  url: https://www.linkedin.com/company/trysaffron
+- type: Twitter
+  url: https://x.com/trysaffron
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
